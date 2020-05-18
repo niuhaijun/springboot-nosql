@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    name: spring_boot_mybatis_plus
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: '!@#$1234Abcd'
+    url: jdbc:mysql://127.0.0.1:3306/spring_boot_mybatis_plus?useSSL=FALSE&allowMultiQueries=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    ## Hikari连接池的设置
+    hikari:
+      #最小连接
+      minimum-idle: 5
+      #最大连接
+      maximum-pool-size: 15
+      #自动提交
+      auto-commit: true
+      #最大空闲时常
+      idle-timeout: 30000
+      #连接池名
+      pool-name: springboot-mybatis-plus
+      #最大生命周期
+      max-lifetime: 900000
+      #连接超时时间
+      connection-timeout: 15000
+      #心跳检测
+      connection-test-query: SELECT 1

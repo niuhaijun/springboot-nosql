@@ -1,4 +1,4 @@
-package com.niu.mybatisplus;
+package com.niu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

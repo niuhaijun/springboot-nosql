@@ -4,7 +4,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: '!@#$1234Abcd'
+    password: root
     url: jdbc:mysql://127.0.0.1:3306/spring_boot_mybatis_plus?useSSL=FALSE&allowMultiQueries=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
     ## Hikari连接池的设置
     hikari:

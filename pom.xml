@@ -35,7 +35,7 @@
     <commons-collections4.version>4.4</commons-collections4.version>
     <lombok.version>1.18.10</lombok.version>
 
-    <springboot.version>2.3.0.RELEASE</springboot.version>
+    <springboot.version>2.5.12</springboot.version>
   </properties>
 
   <modules>
